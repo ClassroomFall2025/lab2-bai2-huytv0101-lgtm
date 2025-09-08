@@ -29,7 +29,9 @@ int main() {
     int n = a+ b;
     printf("Tong cua a va b la: %d\n", n);
     // bào 3 lab 2
-
-
+    int i;
+    for(i = a; i <= b; i++) {
+        sum += i;
+    }
     return 0;
 }
